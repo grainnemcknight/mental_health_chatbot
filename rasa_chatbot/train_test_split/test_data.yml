@@ -1,0 +1,49 @@
+version: "3.1"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - am I talking to a bot?
+- intent: affirm
+  examples: |
+    - indeed
+- intent: deny
+  examples: |
+    - no way
+    - I don't think so
+- intent: goodbye
+  examples: |
+    - bye
+    - bye bye
+- intent: greet
+  examples: |
+    - let's go
+    - hello there
+- intent: non_mental_health
+  examples: |
+    - What's your favorite movie?
+    - What music do you like?
+    - Can you recommend a good book?
+- intent: regular_conversation
+  examples: |
+    - What can I do to calm down when I feel overwhelmed?
+    - My anxiety has been worse this week
+    - I'm feeling really down, can you help?
+    - I don't feel like myself lately
+- intent: product_related
+  examples: |
+    - How secure is Clare?
+    - Are my conversations with Clare private?
+    - Can Clare help me with depression?
+    - How do I customize my interactions with Clare?
+- intent: subscription_related
+  examples: |
+    - How do I add more licenses to my account?
+    - Are there any discounts for long-term subscriptions?
+    - What are the different pricing plans?
+    - What is included in the free trial?
+- intent: suicide
+  examples: |
+    - Life seems pointless, I might end it
+    - I don't want to wake up tomorrow
+    - Nothing seems worth it anymore
+    - No one would miss me if I'm gone

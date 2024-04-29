@@ -1,0 +1,165 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: regular_conversation
+  examples: |
+    - I've been feeling really anxious lately
+    - Can you suggest some exercises to help with stress?
+    - I had a tough day and need to talk
+    - What can I do to calm down when I feel overwhelmed?
+    - Lately, I'm not feeling excited about anything
+    - How can I deal with my constant worry?
+    - I'm struggling with motivation, any advice?
+    - I feel very alone in my struggles
+    - I'm having a hard time sleeping
+    - My anxiety has been worse this week
+    - I need help managing my stress levels
+    - I'm not sure how to handle my sadness
+    - My emotions are all over the place
+    - I keep getting angry over small things
+    - I don't feel like myself lately
+    - How can I improve my mental health?
+    - I feel stressed all the time
+    - What are some techniques to deal with anxiety?
+    - Can we talk about ways to manage depression?
+    - I'm feeling really down, can you help?
+
+- intent: product_related
+  examples: |
+    - How does Clare work?
+    - Can Clare call me on my phone instead of WhatsApp?
+    - What features does Clare have?
+    - How do I activate voice calls?
+    - Is Clare available 24/7?
+    - Are my conversations with Clare private?
+    - Can Clare help me with depression?
+    - How to restart a session with Clare?
+    - What kind of support does Clare offer?
+    - Can I use Clare on multiple devices?
+    - How secure is Clare?
+    - Do you store my data?
+    - What happens if I lose connection during a session?
+    - Can Clare understand different languages?
+    - How do I customize my interactions with Clare?
+    - Can Clare provide emergency support?
+    - How often does Clare update?
+    - Does Clare offer video calls?
+    - What should I do if Clare stops responding?
+    - Are there any additional costs with Clare?
+
+- intent: subscription_related
+  examples: |
+    - How long is my trial period?
+    - When does my subscription expire?
+    - Can you check the status of my subscription?
+    - What does my subscription cover?
+    - How can I upgrade to a premium account?
+    - What are the different pricing plans?
+    - Is there a family plan available?
+    - How do I update my payment information?
+    - How do I cancel my subscription?
+    - What happens after my trial ends?
+    - Can I pause my subscription?
+    - Are there any discounts for long-term subscriptions?
+    - How do I add more licenses to my account?
+    - What is included in the free trial?
+    - Can I change my subscription plan later?
+    - What forms of payment do you accept?
+    - Are there any hidden fees?
+    - How do I renew my subscription?
+    - Is there a loyalty program?
+    - What is the refund policy?
+
+- intent: suicide
+  examples: |
+    - I'm thinking about ending it all
+    - I can't take this anymore, I want to die
+    - Is it normal to feel like I'd be better off dead?
+    - I'm considering suicide
+    - Nothing seems worth it anymore
+    - I don't want to wake up tomorrow
+    - I've been having thoughts of harming myself
+    - Life seems pointless, I might end it
+    - I feel overwhelmed and want to escape forever
+    - Every day is a struggle and I'm tired of fighting
+    - I don't see any way out of this pain
+    - I've been thinking a lot about death lately
+    - I feel trapped in my life
+    - I'm losing hope and don't know what to do
+    - I think my family would be better off without me
+    - No one would miss me if I'm gone
+    - I've started to plan how to end my life
+    - I feel like I'm at the end of my rope
+    - Suicide seems like the only option left
+    - I've been collecting pills for a while now
+
+- intent: non_mental_health
+  examples: |
+    - What's your favorite movie?
+    - Do you watch TV shows?
+    - Can you tell me a joke?
+    - What music do you like?
+    - Do you have any pets?
+    - What's the weather like?
+    - Can you play games?
+    - Tell me something interesting about history
+    - How do you work?
+    - What do you think about artificial intelligence?
+    - Can you recommend a good book?
+    - Are you able to learn new things?
+    - How are you programmed to respond?
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?

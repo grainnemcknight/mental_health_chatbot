@@ -1,0 +1,128 @@
+version: "3.1"
+nlu:
+- intent: bot_challenge
+  examples: |
+    - am I talking to a human?
+    - are you a bot?
+    - are you a human?
+- intent: affirm
+  examples: |
+    - y
+    - yes
+    - of course
+    - that sounds good
+    - correct
+- intent: deny
+  examples: |
+    - never
+    - no
+    - don't like that
+    - not really
+    - n
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - good night
+    - have a nice day
+    - cee you later
+    - see you later
+    - goodbye
+    - see you around
+- intent: greet
+  examples: |
+    - good evening
+    - goodevening
+    - hey
+    - hi
+    - good afternoon
+    - hey dude
+    - good morning
+    - hey there
+    - moin
+    - goodmorning
+    - hello
+- intent: non_mental_health
+  examples: |
+    - Can you play games?
+    - What do you think about artificial intelligence?
+    - How are you programmed to respond?
+    - Tell me something interesting about history
+    - Do you have any pets?
+    - Are you able to learn new things?
+    - Do you watch TV shows?
+    - How do you work?
+    - What's the weather like?
+    - Can you tell me a joke?
+- intent: regular_conversation
+  examples: |
+    - I feel stressed all the time
+    - My emotions are all over the place
+    - I need help managing my stress levels
+    - I had a tough day and need to talk
+    - How can I improve my mental health?
+    - Can we talk about ways to manage depression?
+    - What are some techniques to deal with anxiety?
+    - I keep getting angry over small things
+    - Lately, I'm not feeling excited about anything
+    - I've been feeling really anxious lately
+    - How can I deal with my constant worry?
+    - I'm having a hard time sleeping
+    - Can you suggest some exercises to help with stress?
+    - I'm struggling with motivation, any advice?
+    - I feel very alone in my struggles
+    - I'm not sure how to handle my sadness
+- intent: product_related
+  examples: |
+    - What happens if I lose connection during a session?
+    - Are there any additional costs with Clare?
+    - What features does Clare have?
+    - Can Clare call me on my phone instead of WhatsApp?
+    - How to restart a session with Clare?
+    - Do you store my data?
+    - What kind of support does Clare offer?
+    - Is Clare available 24/7?
+    - How often does Clare update?
+    - How does Clare work?
+    - Can Clare understand different languages?
+    - What should I do if Clare stops responding?
+    - Does Clare offer video calls?
+    - Can I use Clare on multiple devices?
+    - How do I activate voice calls?
+    - Can Clare provide emergency support?
+- intent: subscription_related
+  examples: |
+    - When does my subscription expire?
+    - What happens after my trial ends?
+    - Can I change my subscription plan later?
+    - What forms of payment do you accept?
+    - How do I cancel my subscription?
+    - How do I renew my subscription?
+    - How can I upgrade to a premium account?
+    - How do I update my payment information?
+    - Can I pause my subscription?
+    - How long is my trial period?
+    - What does my subscription cover?
+    - Can you check the status of my subscription?
+    - What is the refund policy?
+    - Are there any hidden fees?
+    - Is there a loyalty program?
+    - Is there a family plan available?
+- intent: suicide
+  examples: |
+    - I feel overwhelmed and want to escape forever
+    - I think my family would be better off without me
+    - I feel like I'm at the end of my rope
+    - I feel trapped in my life
+    - I'm losing hope and don't know what to do
+    - Every day is a struggle and I'm tired of fighting
+    - I've started to plan how to end my life
+    - I've been collecting pills for a while now
+    - I've been thinking a lot about death lately
+    - I'm thinking about ending it all
+    - I can't take this anymore, I want to die
+    - I've been having thoughts of harming myself
+    - Suicide seems like the only option left
+    - I'm considering suicide
+    - I don't see any way out of this pain
+    - Is it normal to feel like I'd be better off dead?

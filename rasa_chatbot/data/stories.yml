@@ -1,0 +1,59 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: regular_conversation
+  - action: action_route_clare_mental_health_agent
+  - action: utter_introduction
+  - action: utter_mood_check
+  - intent: regular_conversation
+  - action: utter_reflection
+  - action: utter_exercise
+  - intent: affirm
+  - action: utter_wrap-up
+
+
+- story: failed exercise path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: regular_conversation
+  - action: action_route_clare_mental_health_agent
+  - action: utter_introduction
+  - action: utter_mood_check
+  - intent: regular_conversation
+  - action: utter_reflection
+  - action: utter_exercise
+  - intent: deny
+  - action: utter_exercise
+  - intent: affirm
+  - action: utter_wrap-up
+
+
+
+- story: product info path
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - or:
+      - intent: product_related
+      - intent: subscription_related
+    - action: action_route_clare_product_support_agent
+
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: regular_conversation
+  - action: action_route_clare_mental_health_agent
+  - action: utter_introduction
+  - action: utter_mood_check
+  - intent: regular_conversation
+  - action: utter_did_that_help
+  - intent: deny
+  - action: action_route_clare_human_agent

@@ -1,0 +1,50 @@
+[
+  {
+    "text": "I don't think so",
+    "intent": "deny",
+    "intent_prediction": {
+      "name": "suicide",
+      "confidence": 0.5516068935394287
+    }
+  },
+  {
+    "text": "bye",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.4884911775588989
+    }
+  },
+  {
+    "text": "let's go",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "non_mental_health",
+      "confidence": 0.6886090040206909
+    }
+  },
+  {
+    "text": "Can you recommend a good book?",
+    "intent": "non_mental_health",
+    "intent_prediction": {
+      "name": "subscription_related",
+      "confidence": 0.4158848524093628
+    }
+  },
+  {
+    "text": "What can I do to calm down when I feel overwhelmed?",
+    "intent": "regular_conversation",
+    "intent_prediction": {
+      "name": "suicide",
+      "confidence": 0.9084972143173218
+    }
+  },
+  {
+    "text": "I don't feel like myself lately",
+    "intent": "regular_conversation",
+    "intent_prediction": {
+      "name": "suicide",
+      "confidence": 0.35761603713035583
+    }
+  }
+]

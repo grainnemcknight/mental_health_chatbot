@@ -1,0 +1,61 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - regular_conversation
+  - product_related
+  - subscription_related
+  - suicide
+  - non_mental_health
+
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_introduction:
+  - text: "I am Clare, your mental health support AI"
+
+  utter_mood_check:
+    - text: "What is your current mood?"
+
+  utter_reflection:
+    - text: "Why do you think that is?"
+
+  utter_exercise:
+    - text: "Please perform the following exercise and let me know when you are done!"
+
+  utter_wrap-up:
+    - text: "Let's wrap up here!"
+
+
+
+actions:
+  - action_route_clare_product_support_agent
+  - action_route_clare_human_agent
+  - action_route_clare_mental_health_agent
+  - action_route_clare_urgent_help
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
